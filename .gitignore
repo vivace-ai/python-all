@@ -1,0 +1,12 @@
+# 가상환경과 파이썬이 만드는 파일
+.venv/
+__pycache__/
+.mypy_cache/
+.pytest_cache/
+
+# 비밀 값을 적어 둔 파일
+.env
+
+# 프로그램이 실행하면서 만드는 파일
+*.db
+ch*/output/

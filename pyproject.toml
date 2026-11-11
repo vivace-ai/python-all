@@ -1,0 +1,25 @@
+[project]
+name = "python-all"
+version = "2.0.0"
+description = "『파이썬 완전 정복』 개정판 예제 코드"
+requires-python = ">=3.14"
+dependencies = [
+    "fastapi>=0.162.4",
+    "httpx>=0.28.1",
+    "matplotlib>=3.11.2",
+    "numpy>=2.5.4",
+    "openai>=3.49.0",
+    "pandas>=3.1.1",
+    "requests>=2.34.2",
+    "tabulate>=0.10.0",
+    "uvicorn>=0.54.0",
+    "wcwidth>=0.9.4",
+]
+
+[dependency-groups]
+dev = [
+    "mypy>=2.4.1",
+    "pytest>=9.2.0",
+    "types-requests>=2.33.0.20261030",
+    "types-tabulate>=0.10.0.20261006",
+]

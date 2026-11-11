@@ -1,0 +1,6 @@
+uv init dday
+cd dday
+uv add python-dateutil
+uv run main.py
+uv tree
+uv remove python-dateutil
